@@ -5,27 +5,44 @@ import java.text.SimpleDateFormat
 
 class CapitalGainsApp {
 	
+	SimpleDateFormat sdf = new SimpleDateFormat('dd MMM yyyy')
+	NumberFormat cf = NumberFormat.getCurrencyInstance()
+	
+	BigInteger purchasePrice
+	BigInteger salesPrice
+	BigInteger estimatedValueAtRental
+	BigInteger estimatedValueAfterRental
+	
+	int totalOwnershipMonths
+	int nonRentalMonths
+	int rentalMonths
+	
+	def CapitalGainsApp() {
+		cf.setMaximumFractionDigits(0)
+	}
+		
 	static main(args) {
 		println 'CapitalGainsApp started...'
 		println ''
 
 		CapitalGainsApp app = new CapitalGainsApp()
-		app.execute()
+		app.timeline()
+		app.discountIndexCalculation()
+		app.discountOnlyCalculation()
 		
 		println 'CapitalGainsApp ended.'
 	}
 	
-	def execute() {
-		SimpleDateFormat sdf = new SimpleDateFormat('dd MMM yyyy')
-		NumberFormat cf = NumberFormat.getCurrencyInstance()
-		cf.setMaximumFractionDigits(0)
+	def timeline() {
+		println 'TIMELINE FOR 9 GRANT STREET, CAMP HILL QLD 4152'
+		println '==============================================='
 		
 		Calendar purchaseDate = new GregorianCalendar(1992, 8, 24)
-		BigInteger purchasePrice = new BigInteger('115000')
+		purchasePrice = new BigInteger('115000')
 		println "Purchase date/price\t\t: ${sdf.format(purchaseDate.getTime())}\t${cf.format(purchasePrice)}"
-		Calendar salesDate = new GregorianCalendar(2020, 9, 24)
-		BigInteger estimatedSalesPrice = new BigInteger('800000')
-		println "Estimated sales date/price\t: ${sdf.format(salesDate.getTime())}\t${cf.format(estimatedSalesPrice)}"
+		Calendar salesDate = new GregorianCalendar(2020, 8, 24)
+		salesPrice = new BigInteger('800000')
+		println "Sales date/price\t\t: ${sdf.format(salesDate.getTime())}\t${cf.format(salesPrice)}"
 		println ''
 
 		println "Owner occupied(1) start date\t: ${sdf.format(purchaseDate.getTime())}"
@@ -33,8 +50,14 @@ class CapitalGainsApp {
 		Calendar ownerOccupiedEndDate = new GregorianCalendar(1995, 6, 1)
 		println "Owner occupied(1) end date\t: ${sdf.format(ownerOccupiedEndDate.getTime())}"
 		
+		estimatedValueAtRental = new BigInteger('140000')
+		println "Est. value at start of rental\t: ${cf.format(estimatedValueAtRental)} ????????????????"
+
 		Calendar unoccupiedStartDate = new GregorianCalendar(2018, 11, 1)
 		println "Unoccupied start date\t\t: ${sdf.format(unoccupiedStartDate.getTime())}"
+		
+		estimatedValueAfterRental = new BigInteger('720000')
+		println "Est. value at end of rental\t: ${cf.format(estimatedValueAfterRental)} ????????????????"
 		
 		Calendar ownerOccupiedDate = new GregorianCalendar(2019, 8, 1)
 		println "Owner occupied(2) start date\t: ${sdf.format(ownerOccupiedDate.getTime())}"
@@ -59,25 +82,28 @@ class CapitalGainsApp {
 		//total ownership months
 		int yearsDiff09 = salesDate.get(Calendar.YEAR) - purchaseDate.get(Calendar.YEAR)
 		int monthsDiff09 = salesDate.get(Calendar.MONTH) - purchaseDate.get(Calendar.MONTH)
-		int totalOwnershipMonths = yearsDiff09*12 + monthsDiff09 + 1
+		totalOwnershipMonths = yearsDiff09*12 + monthsDiff09 + 1
 		println "Total ownership months\t\t: $totalOwnershipMonths months"
 		//total non-rental months
-		int nonRentalMonths = months01+months03+months04
+		nonRentalMonths = months01+months03+months04
 		println "Total non-rental months\t\t: ${nonRentalMonths} months"
-		int rentalMonths = totalOwnershipMonths - nonRentalMonths
+		rentalMonths = totalOwnershipMonths - nonRentalMonths
 		println "Total rental months\t\t: ${rentalMonths} months"
+	}
+	
+	def discountIndexCalculation() {
 		println ''
-		
-		println 'CAPITAL GAINS CALCULATIONS'
-		println '=========================='
+		println ''
+		println 'CAPITAL GAINS CALCULATIONS USING 50% DISCOUNT AND TIME INDEXING'
+		println '==============================================================='
 		println "Time index calculation\t\t: months rented / months owned"
 		println "Time index calculation\t\t: $rentalMonths / $totalOwnershipMonths"
 		BigDecimal timeIndex = rentalMonths / totalOwnershipMonths
 		println "Time index value\t\t: ${timeIndex}"
 		println ''
 		println "Base Capital Gains calculation\t: salesPrice - purchasePrice"
-		println "Base Capital Gains calculation\t: $estimatedSalesPrice - $purchasePrice"
-		BigInteger baseCapitalGains = estimatedSalesPrice - purchasePrice
+		println "Base Capital Gains calculation\t: $salesPrice - $purchasePrice"
+		BigInteger baseCapitalGains = salesPrice - purchasePrice
 		println "Base Capital Gains\t\t: ${cf.format(baseCapitalGains)}"
 		println ''
 		println "Discounted Capital Gains\t: 50% of Base Capital Gains"
@@ -95,10 +121,27 @@ class CapitalGainsApp {
 		println "Estimated Tax calulation\t: 33% of Taxable Income"
 		BigInteger estimatedTax = timeIndexedCapitalGains / 3
 		println "Estimated Tax  (2021)\t\t: ${cf.format(estimatedTax)}"
-		
-		
-		
-		
+	}
+	
+	def discountOnlyCalculation() {
 		println ''
+		println ''
+		println 'CAPITAL GAINS CALCULATIONS USING 50% DISCOUNT ONLY'
+		println '=================================================='
+		println "Base Capital Gains calculation\t: estimatedValueAfterRental - estimatedValueAtRental"
+		println "Base Capital Gains calculation\t: $estimatedValueAfterRental - $estimatedValueAtRental"
+		BigInteger baseCapitalGains = estimatedValueAfterRental - estimatedValueAtRental
+		println "Base Capital Gains\t\t: ${cf.format(baseCapitalGains)}"
+		println ''
+		println "Discounted Capital Gains\t: 50% of Base Capital Gains"
+		println "Discounted Capital Gains\t: $baseCapitalGains / 2"
+		BigInteger discountedCapitalGains = baseCapitalGains / 2
+		println "Discounted Capital Gains\t: ${cf.format(discountedCapitalGains)}"
+		println ''
+		println "Taxable Income (2021)\t\t: ${cf.format(discountedCapitalGains)}"
+		println ''
+		println "Estimated Tax calulation\t: 33% of Taxable Income"
+		BigInteger estimatedTax = discountedCapitalGains / 3
+		println "Estimated Tax  (2021)\t\t: ${cf.format(estimatedTax)}"
 	}
 }
