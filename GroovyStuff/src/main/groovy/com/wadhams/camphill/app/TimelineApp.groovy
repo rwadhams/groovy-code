@@ -32,7 +32,7 @@ class TimelineApp {
 		int monthsDiff01 = firstRentalDate.get(Calendar.MONTH) - purchaseDate.get(Calendar.MONTH)
 		int months01 = yearsDiff01*12 + monthsDiff01
 		println "Owner occupied(1) for\t\t\t: $months01 months"
-		BigInteger estimatedValueAtRental = new BigInteger('150000')
+		BigInteger estimatedValueAtRental = new BigInteger('140000')
 		println "Estimated value at start of rental\t: ${cf.format(estimatedValueAtRental)} ????????????????"
 		println "\tEstimated gain as Owner occupied(1)\t: ${cf.format(estimatedValueAtRental-purchasePrice)}"
 		println ''
@@ -43,7 +43,7 @@ class TimelineApp {
 		int monthsDiff02 = lastRentalDate.get(Calendar.MONTH) - firstRentalDate.get(Calendar.MONTH)
 		int months02 = yearsDiff02*12 + monthsDiff02
 		println "Rented for\t\t\t\t: $months02 months"
-		BigInteger estimatedValueAfterRental = new BigInteger('700000')
+		BigInteger estimatedValueAfterRental = new BigInteger('750000')
 		println "Estimated value at end of rental\t: ${cf.format(estimatedValueAfterRental)} ????????????????"
 		println "\tEstimated gain as Landlords\t\t: ${cf.format(estimatedValueAfterRental-estimatedValueAtRental)}"
 		println ''
@@ -55,13 +55,13 @@ class TimelineApp {
 		int months03 = yearsDiff03*12 + monthsDiff03
 		println "Property was unoccupied/unrented for\t: $months03 months"
 
-		Calendar saleDate = new GregorianCalendar()
+		Calendar saleDate = new GregorianCalendar(2020, 8, 24)
 		int yearsDiff04 = saleDate.get(Calendar.YEAR) - ownerOccupiedDate.get(Calendar.YEAR)
 		int monthsDiff04 = saleDate.get(Calendar.MONTH) - ownerOccupiedDate.get(Calendar.MONTH)
 		int months04 = yearsDiff04*12 + monthsDiff04 + 1
 		println "Owner occupied(2) for\t\t\t: $months04 months"
 		println ''
-		BigInteger estimatedValueSale = new BigInteger('840000')
+		BigInteger estimatedValueSale = new BigInteger('800000')
 		println "Estimated value at sale\t\t\t: ${cf.format(estimatedValueSale)} ????????????????"
 		println "\tEstimated gain as Owner occupied(2)\t: ${cf.format(estimatedValueSale-estimatedValueAfterRental)}"
 		println ''

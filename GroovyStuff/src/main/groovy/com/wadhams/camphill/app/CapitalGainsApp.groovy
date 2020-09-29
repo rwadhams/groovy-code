@@ -23,7 +23,7 @@ class CapitalGainsApp {
 		Calendar purchaseDate = new GregorianCalendar(1992, 8, 24)
 		BigInteger purchasePrice = new BigInteger('115000')
 		println "Purchase date/price\t\t: ${sdf.format(purchaseDate.getTime())}\t${cf.format(purchasePrice)}"
-		Calendar salesDate = new GregorianCalendar(2020, 7, 15)
+		Calendar salesDate = new GregorianCalendar(2020, 9, 24)
 		BigInteger estimatedSalesPrice = new BigInteger('800000')
 		println "Estimated sales date/price\t: ${sdf.format(salesDate.getTime())}\t${cf.format(estimatedSalesPrice)}"
 		println ''
