@@ -3,7 +3,10 @@ package com.wadhams.camphill.app
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
 
+import com.wadhams.camphill.service.TaxCalculatorService
+
 class CapitalGainsApp {
+	TaxCalculatorService service = new TaxCalculatorService()
 	
 	SimpleDateFormat sdf = new SimpleDateFormat('dd MMM yyyy')
 	NumberFormat cf = NumberFormat.getCurrencyInstance()
@@ -50,13 +53,13 @@ class CapitalGainsApp {
 		Calendar ownerOccupiedEndDate = new GregorianCalendar(1995, 6, 1)
 		println "Owner occupied(1) end date\t: ${sdf.format(ownerOccupiedEndDate.getTime())}"
 		
-		estimatedValueAtRental = new BigInteger('140000')
+		estimatedValueAtRental = new BigInteger('140000')	//140000 165000
 		println "Est. value at start of rental\t: ${cf.format(estimatedValueAtRental)} ????????????????"
 
 		Calendar unoccupiedStartDate = new GregorianCalendar(2018, 11, 1)
 		println "Unoccupied start date\t\t: ${sdf.format(unoccupiedStartDate.getTime())}"
 		
-		estimatedValueAfterRental = new BigInteger('720000')
+		estimatedValueAfterRental = new BigInteger('650000')	//740000 720000 650000
 		println "Est. value at end of rental\t: ${cf.format(estimatedValueAfterRental)} ????????????????"
 		
 		Calendar ownerOccupiedDate = new GregorianCalendar(2019, 8, 1)
@@ -118,9 +121,7 @@ class CapitalGainsApp {
 		println ''
 		println "Taxable Income (2021)\t\t: ${cf.format(timeIndexedCapitalGains)}"
 		println ''
-		println "Estimated Tax calulation\t: 33% of Taxable Income"
-		BigInteger estimatedTax = timeIndexedCapitalGains / 3
-		println "Estimated Tax  (2021)\t\t: ${cf.format(estimatedTax)}"
+		println "Estimated Tax  (2021)\t\t: ${cf.format(service.calculate(timeIndexedCapitalGains))}"
 	}
 	
 	def discountOnlyCalculation() {
@@ -140,8 +141,6 @@ class CapitalGainsApp {
 		println ''
 		println "Taxable Income (2021)\t\t: ${cf.format(discountedCapitalGains)}"
 		println ''
-		println "Estimated Tax calulation\t: 33% of Taxable Income"
-		BigInteger estimatedTax = discountedCapitalGains / 3
-		println "Estimated Tax  (2021)\t\t: ${cf.format(estimatedTax)}"
+		println "Estimated Tax  (2021)\t\t: ${cf.format(service.calculate(discountedCapitalGains))}"
 	}
 }
