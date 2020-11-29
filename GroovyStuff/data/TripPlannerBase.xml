@@ -1,0 +1,11 @@
+<tripPlanner>
+	<startDate>yyyyMMdd</startDate>
+	<locationNights>
+		<location></location>
+		<nights></nights>
+	</locationNights>
+	<locationNights>
+		<location></location>
+		<nights></nights>
+	</locationNights>
+</tripPlanner>

@@ -1,0 +1,31 @@
+<tripPlanner>
+	<startDate>20201128</startDate>
+	<locationNights>
+		<location>Urunga</location>
+		<nights>2</nights>
+	</locationNights>
+	<locationNights>
+		<location>Moonee Beach</location>
+		<nights>3</nights>
+	</locationNights>
+	<locationNights>
+		<location>Minnie Waters</location>
+		<nights>3</nights>
+	</locationNights>
+	<locationNights>
+		<location>Ballina</location>
+		<nights>2</nights>
+	</locationNights>
+	<locationNights>
+		<location>Murwillumbah</location>
+		<nights>2</nights>
+	</locationNights>
+	<locationNights>
+		<location>Beenleigh</location>
+		<nights>1</nights>
+	</locationNights>
+	<locationNights>
+		<location>Car and caravan storage</location>
+		<nights>1</nights>
+	</locationNights>
+</tripPlanner>

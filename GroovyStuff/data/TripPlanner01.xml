@@ -1,0 +1,75 @@
+<tripPlanner>
+	<startDate>20200712</startDate>
+	<locationNights>
+		<location>Deception Bay (Housesitting)</location>
+		<nights>1</nights>
+	</locationNights>
+	<locationNights>
+		<location>Nanango (RV Park)</location>
+		<nights>4</nights>
+	</locationNights>
+	<locationNights>
+		<location>Maidenwell (behind Pub)</location>
+		<nights>4</nights>
+	</locationNights>
+	<locationNights>
+		<location>Chinchilla (Showgrounds)</location>
+		<nights>1</nights>
+	</locationNights>
+	<locationNights>
+		<location>Miles (Ben and Gillian's)</location>
+		<nights>2</nights>
+	</locationNights>
+	<locationNights>
+		<location>Roma (Gun Club)</location>
+		<nights>3</nights>
+	</locationNights>
+	<locationNights>
+		<location>Carnavon Gorge (Sandstone Park)</location>
+		<nights>5</nights>
+	</locationNights>
+	<locationNights>
+		<location>Springsure (Lion's free camp)</location>
+		<nights>1</nights>
+	</locationNights>
+	<locationNights>
+		<location>Sapphire (Blue Gem Tourist Park)</location>
+		<nights>4</nights>
+	</locationNights>
+	<locationNights>
+		<location>Gemfield area (???)</location>
+		<nights>3</nights>
+	</locationNights>
+	<locationNights>
+		<location>Blackwater</location>
+		<nights>2</nights>
+	</locationNights>
+	<locationNights>
+		<location>Bluff (Blackdown Tablelands)</location>
+		<nights>2</nights>
+	</locationNights>
+	<locationNights>
+		<location>Rockhampton area</location>
+		<nights>3</nights>
+	</locationNights>
+	<locationNights>
+		<location>Agnes Water</location>
+		<nights>4</nights>
+	</locationNights>
+	<locationNights>
+		<location>Bargara</location>
+		<nights>4</nights>
+	</locationNights>
+	<locationNights>
+		<location>Hervey Bay</location>
+		<nights>5</nights>
+	</locationNights>
+	<locationNights>
+		<location>Beerwah</location>
+		<nights>1</nights>
+	</locationNights>
+	<locationNights>
+		<location>Car and caravan storage</location>
+		<nights>1</nights>
+	</locationNights>
+</tripPlanner>
