@@ -59,7 +59,7 @@ class CapitalGainsApp {
 		Calendar unoccupiedStartDate = new GregorianCalendar(2018, 11, 1)
 		println "Unoccupied start date\t\t: ${sdf.format(unoccupiedStartDate.getTime())}"
 		
-		estimatedValueAfterRental = new BigInteger('650000')	//740000 720000 650000
+		estimatedValueAfterRental = new BigInteger('710000')	//750000 740000 710000 680000 650000
 		println "Est. value at end of rental\t: ${cf.format(estimatedValueAfterRental)} ????????????????"
 		
 		Calendar ownerOccupiedDate = new GregorianCalendar(2019, 8, 1)
@@ -119,9 +119,9 @@ class CapitalGainsApp {
 		BigInteger timeIndexedCapitalGains = discountedCapitalGains * timeIndex
 		println "Time Indexed Capital Gains\t: ${cf.format(timeIndexedCapitalGains)}"
 		println ''
-		println "Taxable Income (2021)\t\t: ${cf.format(timeIndexedCapitalGains)}"
+		println "Taxable Income (2020)\t\t: ${cf.format(timeIndexedCapitalGains)}"
 		println ''
-		println "Estimated Tax  (2021)\t\t: ${cf.format(service.calculate(timeIndexedCapitalGains))}"
+		println "Estimated Tax  (2020)\t\t: ${cf.format(service.calculate(timeIndexedCapitalGains, '2019-20'))}"
 	}
 	
 	def discountOnlyCalculation() {
@@ -139,8 +139,8 @@ class CapitalGainsApp {
 		BigInteger discountedCapitalGains = baseCapitalGains / 2
 		println "Discounted Capital Gains\t: ${cf.format(discountedCapitalGains)}"
 		println ''
-		println "Taxable Income (2021)\t\t: ${cf.format(discountedCapitalGains)}"
+		println "Taxable Income (2020)\t\t: ${cf.format(discountedCapitalGains)}"
 		println ''
-		println "Estimated Tax  (2021)\t\t: ${cf.format(service.calculate(discountedCapitalGains))}"
+		println "Estimated Tax  (2020)\t\t: ${cf.format(service.calculate(discountedCapitalGains, '2019-20'))}"
 	}
 }
