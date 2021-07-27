@@ -1,0 +1,83 @@
+<tripPlanner>
+	<startDate>20210725</startDate>
+	<locationNights>
+		<location>Lucinda (Wanderers CP)</location>
+		<nights>5</nights>
+		<thingsToDo>Visit Lynn &amp; Alison, Fishing</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Ingham (Tyto RV Area)</location>
+		<nights>2</nights>
+		<thingsToDo>Wallaman Falls, Tyto Wetlands</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Djiru NP (Warwick Losper)</location>
+		<nights>3</nights>
+		<thingsToDo>Mission Beach, Tully?, Kurrimine Beach</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Innisfail (CMCA)</location>
+		<nights>2</nights>
+		<thingsToDo>Drive Canecutter Way (Paronella Park)</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Palmerston NP</location>
+		<nights>2</nights>
+		<thingsToDo>Walks, Nature</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Ravenshoe</location>
+		<nights>2</nights>
+		<thingsToDo>Innot Hot Springs, Tully Gorge</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Millaa Millaa</location>
+		<nights>2</nights>
+		<thingsToDo>Waterfall Drive</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Yungaburra</location>
+		<nights>2</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Lake Tinaroo</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mareeba</location>
+		<nights>2</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Cooktown</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mount Molloy????</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Wonga Beach (Wonga Beach CP)</location>
+		<nights>4</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Port Douglas</location>
+		<nights>2</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Cairns</location>
+		<nights>2</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Babinda</location>
+		<nights>2</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+</tripPlanner>

@@ -33,7 +33,7 @@ class TripPlannerApp {
 		
 		SimpleDateFormat sdf = new SimpleDateFormat('yyyyMMdd')
 		Date startDate = sdf.parse(tripPlanner.startDate.text())
-//		println startDate
+		//println startDate
 		
 		List<LocationNights> ldlist = buildLocationNightsList(tripPlanner.locationNights)
 		
@@ -45,11 +45,13 @@ class TripPlannerApp {
 		
 		Date reportDate = startingDate
 		ldlist.each {ld ->
+			boolean firstNight = true
 			ld.nights.times {
-				println "${sdf.format(reportDate)}\t${ld.location}"
+				println "${sdf.format(reportDate)}\t${ld.location}${(firstNight) ? "...: ${ld.thingsToDo}" : ''}"
+				firstNight = false
 				reportDate = reportDate.next()
 			}
-			
+			println ''
 		}
 	}
 	
@@ -59,7 +61,8 @@ class TripPlannerApp {
 		locationNights.each {ln ->
 			String location = ln.location
 			String nights = ln.nights
-			ldlist << new LocationNights(location : "$location", nights : Integer.parseInt(nights))
+			String thingsToDo = ln.thingsToDo
+			ldlist << new LocationNights(location : "$location", nights : Integer.parseInt(nights), thingsToDo : "$thingsToDo")
 		}
 		
 		return ldlist
@@ -71,4 +74,5 @@ class TripPlannerApp {
 class LocationNights {
 	String location
 	int nights
+	String thingsToDo
 }
