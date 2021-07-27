@@ -12,6 +12,7 @@ class TaxCalculationApp {
 		println ''
 
 		TaxCalculationApp app = new TaxCalculationApp()
+		app.execute(new BigDecimal('423000'), '2019-20')
 		app.execute(new BigDecimal('333000'), '2019-20')
 		app.execute(new BigDecimal('333000'), '2020-21')
 		app.execute(new BigDecimal('150000'), '2019-20')

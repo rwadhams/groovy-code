@@ -59,7 +59,7 @@ class CapitalGainsApp {
 		Calendar unoccupiedStartDate = new GregorianCalendar(2018, 11, 1)
 		println "Unoccupied start date\t\t: ${sdf.format(unoccupiedStartDate.getTime())}"
 		
-		estimatedValueAfterRental = new BigInteger('710000')	//750000 740000 710000 680000 650000
+		estimatedValueAfterRental = new BigInteger('740000')	//750000 740000 710000 680000 650000
 		println "Est. value at end of rental\t: ${cf.format(estimatedValueAfterRental)} ????????????????"
 		
 		Calendar ownerOccupiedDate = new GregorianCalendar(2019, 8, 1)
