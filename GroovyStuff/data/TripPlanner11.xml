@@ -1,0 +1,90 @@
+<tripPlanner>
+	<startDate>20211002</startDate>
+	<locationNights>
+		<location>Holder (Maize Island Lagoon Conservation Park)</location>
+		<nights>3</nights>
+		<thingsToDo>Waiting out Labour Day weekend</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Waikerie (Ramco Lagoon Camping Area)</location>
+		<nights>2</nights>
+		<thingsToDo>Resupply, Town attractions </thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Renmark (???)</location>
+		<nights>5</nights>
+		<thingsToDo>Brewery, River cruise </thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Loxton (???)</location>
+		<nights>3</nights>
+		<thingsToDo>???</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Swan Reach (Tenbury Hunter Reserve)</location>
+		<nights>3</nights>
+		<thingsToDo>Blachetown Lock #1, </thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Murray Bridge (Showgrounds)</location>
+		<nights>2</nights>
+		<thingsToDo>???</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Narrung (Narrung Ferry Camp Area)</location>
+		<nights>2</nights>
+		<thingsToDo>Meet Graeme and Jenny, Meningie House Sit </thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mannum (???)</location>
+		<nights>2</nights>
+		<thingsToDo>???</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>52 nights - Yorke &amp; Eyre Peninsula</location>
+		<nights>52</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>21 nights - Meningie (House Sit)</location>
+		<nights>21</nights>
+		<thingsToDo>Fishing, The Coorong</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>8 nights - Fleurieu Peninsula (???)</location>
+		<nights>8</nights>
+		<thingsToDo>Victor Harbour, View Kangaroo Is, </thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>17 nights - Adelaide Surrounds</location>
+		<nights>17</nights>
+		<thingsToDo>Adelaide, Clare, Adelaide Hills, Barossa Valley</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>35 nights - Echunga</location>
+		<nights>35</nights>
+		<thingsToDo>Hahndorf, McLaren Vale, Strathalbyn</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>14 nights - Coorong to Mount Gambier</location>
+		<nights>14</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>14 nights - VIC - NSW - Brisbane</location>
+		<nights>14</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<!--
+	<locationNights>
+		<location>John Crawford Marine</location>
+		<nights>7</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location></location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	-->
+</tripPlanner>

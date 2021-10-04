@@ -22,33 +22,38 @@
 	</locationNights>
 	<locationNights>
 		<location>Palmerston NP</location>
-		<nights>3</nights>
-		<thingsToDo>Walks &amp; Nature</thingsToDo>
+		<nights>2</nights>
+		<thingsToDo>Walks &amp; Nature, Millaa Waterfalls, Nigel &amp; Chris</thingsToDo>
 	</locationNights>
 	<locationNights>
-		<location>Ravenshoe (Country Club)</location>
+		<location>Ravenshoe (Caravan Park)</location>
 		<nights>4</nights>
-		<thingsToDo>Innot Hot Springs, Tully Gorge, Millaa Waterfalls</thingsToDo>
+		<thingsToDo>Innot Hot Springs, Tully Gorge, Millstream Falls, Bromfields Crater, Dinner Falls</thingsToDo>
 	</locationNights>
 	<locationNights>
 		<location>Yungaburra (Lakeside CP)</location>
-		<nights>3</nights>
-		<thingsToDo>Atherton, Tinaroo Falls, Crater Lake, Bat Museum</thingsToDo>
+		<nights>4</nights>
+		<thingsToDo>Atherton, Tinaroo Falls, Nerada Tea (Tree Kangaroos), Lake Barrine &amp; Eacham, Curtain Fig Tree, Platypus viewing</thingsToDo>
 	</locationNights>
 	<locationNights>
 		<location>Mareeba (Mareeba Rodeo)</location>
 		<nights>2</nights>
-		<thingsToDo>Coffee Plantion</thingsToDo>
+		<thingsToDo>Coffee Plantation</thingsToDo>
 	</locationNights>
 	<locationNights>
-		<location>Kuranda (Kuranda Rainforest Accomodation Park)</location>
-		<nights>2</nights>
-		<thingsToDo>Barron Gorge NP, Walks &amp; Nature, Markets</thingsToDo>
+		<location>Lakeland (Lakeland Hotel)</location>
+		<nights>1</nights>
+		<thingsToDo>Overnight stop</thingsToDo>
 	</locationNights>
 	<locationNights>
-		<location>Port Douglas (???)</location>
+		<location>Cooktown (Cooktown Racecourse)</location>
 		<nights>3</nights>
-		<thingsToDo>Reef Trip, Mossman Gorge</thingsToDo>
+		<thingsToDo>James Cook history, Lions Den Hotel, Bloomfield</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mount Molloy (Rifle Creek Rest Area)</location>
+		<nights>1</nights>
+		<thingsToDo>Overnight stop</thingsToDo>
 	</locationNights>
 	<locationNights>
 		<location>Wonga Beach (Wonga Beach CP)</location>
@@ -56,9 +61,14 @@
 		<thingsToDo>Daintree NP, Cape Tribulation</thingsToDo>
 	</locationNights>
 	<locationNights>
+		<location>Port Douglas (Big 4)</location>
+		<nights>2</nights>
+		<thingsToDo>Reef Trip??? </thingsToDo>
+	</locationNights>
+	<locationNights>
 		<location>Cairns (???)</location>
 		<nights>2</nights>
-		<thingsToDo>Resupply</thingsToDo>
+		<thingsToDo>Resupply, Drive Kuranda </thingsToDo>
 	</locationNights>
 	<locationNights>
 		<location>Babinda (???)</location>

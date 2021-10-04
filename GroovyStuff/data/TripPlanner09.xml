@@ -1,0 +1,65 @@
+<tripPlanner>
+	<startDate>20210823</startDate>
+	<locationNights>
+		<location>Wonga Beach (Wonga Beach CP)</location>
+		<nights>4</nights>
+		<thingsToDo>Daintree NP, Cape Tribulation</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Caravonica (Lake Placid Tourist Park)</location>
+		<nights>2</nights>
+		<thingsToDo>Resupply, Drive Kuranda </thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Ingham (Tyto RV Area)</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Dotswoods (Comfort Stop)</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Clermont (Clermont CP)</location>
+		<nights>2</nights>
+		<thingsToDo>Rest day</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Sapphire (Blue Gem CP, #48, Tahlia)</location>
+		<nights>4</nights>
+		<thingsToDo>Fossicking</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Dululu (Dululu Campground)</location>
+		<nights>1</nights>
+		<thingsToDo>Overnight</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Eidsvold (Showgrounds)</location>
+		<nights>1</nights>
+		<thingsToDo>Visit Mum's birthplace</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Nanango (Nanago RV Park)</location>
+		<nights>1</nights>
+		<thingsToDo>Overnight</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Ormiston (Stay w/ Mum)</location>
+		<nights>5</nights>
+		<thingsToDo>Visit w/ Family</thingsToDo>
+	</locationNights>
+	<!--
+	<locationNights>
+		<location>John Crawford Marine</location>
+		<nights>7</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location></location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	-->
+</tripPlanner>
