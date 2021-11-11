@@ -1,0 +1,135 @@
+<tripPlanner>
+	<startDate>20211002</startDate>
+	<locationNights>
+		<location>Holder (Maize Island Lagoon Conservation Park)</location>
+		<nights>3</nights>
+		<thingsToDo>Waiting out Labour Day weekend</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Waikerie (Holder Bend Reserve)</location>
+		<nights>2</nights>
+		<thingsToDo>Resupply, Town attractions </thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Berri (Martin Bend Reserve)</location>
+		<nights>5</nights>
+		<thingsToDo>Brewery, River cruise, Renmark, , Wetlands Cruise(Loch Luna) </thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Loxton (Riverfront Holiday Park)</location>
+		<nights>1</nights>
+		<thingsToDo>Personal grooming</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Swan Reach (Tenbury Hunter Reserve)</location>
+		<nights>1</nights>
+		<thingsToDo>Blachetown Lock #1, </thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Walker Flat (Swamp Hen Reserve)</location>
+		<nights>1</nights>
+		<thingsToDo>Walk into town</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mannum (Haythorpe Reserve)</location>
+		<nights>3</nights>
+		<thingsToDo>Paddle Wheel cruise</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Murray Bridge (Showgrounds)</location>
+		<nights>3</nights>
+		<thingsToDo>Car Servicing (Tues 8am), Meet Graeme and Jenny, Meningie House Sit</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>5 nights - Largs Bay (House Sit)</location>
+		<nights>5</nights>
+		<thingsToDo>New tyres (Fri 8:30am) </thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>14 nights - Yorke Peninsula</location>
+		<nights>14</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Clare</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>4 nights - Rose Park (House Sit)</location>
+		<nights>4</nights>
+		<thingsToDo>Adelaide</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Adelaide Hills</location>
+		<nights>6</nights>
+		<thingsToDo>Adelaide day trips</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Hahndorf (???)</location>
+		<nights>4</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>McLaren Vale (???)</location>
+		<nights>3</nights>
+		<thingsToDo>Caravan Servicing</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>17 nights - Fleurieu Peninsula</location>
+		<nights>17</nights>
+		<thingsToDo>Victor Harbour, Strathalbyn, etc</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>21 nights - Meningie (House Sit)</location>
+		<nights>21</nights>
+		<thingsToDo>Fishing, The Coorong</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mannum (Haythorpe Reserve)</location>
+		<nights>1</nights>
+		<thingsToDo>Transit</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Barossa Valley</location>
+		<nights>5</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>42 nights - Eyre Peninsula</location>
+		<nights>42</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Gawler (???)</location>
+		<nights>1</nights>
+		<thingsToDo>Transit</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Narrung (Narrung Ferry Camp Area)</location>
+		<nights>2</nights>
+		<thingsToDo> </thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>12 nights - Coorong to Mount Gambier</location>
+		<nights>12</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>28 nights - VIC - NSW - Brisbane</location>
+		<nights>28</nights>
+		<thingsToDo>Great Ocean Road, Mornington Peninsula, Wilson's Prom, East Gippsland, VIC High Country</thingsToDo>
+	</locationNights>
+	<!--
+	<locationNights>
+		<location>John Crawford Marine</location>
+		<nights>7</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location></location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	-->
+</tripPlanner>
