@@ -1,0 +1,299 @@
+<holidays>
+	<year>2022</year>
+	<state>
+		<name>QLD</name>
+		<term>
+			<num>One</num>
+			<startDate>24/01/2022</startDate>
+			<endDate>01/04/2022</endDate>
+		</term>
+		<term>
+			<num>Two</num>
+			<startDate>19/04/2022</startDate>
+			<endDate>24/06/2022</endDate>
+		</term>
+		<term>
+			<num>Three</num>
+			<startDate>11/07/2022</startDate>
+			<endDate>16/09/2022</endDate>
+		</term>
+		<term>
+			<num>Four</num>
+			<startDate>04/10/2022</startDate>
+			<endDate>09/12/2022</endDate>
+		</term>
+		<holiday name="New Year's Day" date="03/01/2022"></holiday>
+		<holiday name="Australia Day" date="26/01/2022"></holiday>
+		<holiday name="Good Friday" date="15/04/2022"></holiday>
+		<holiday name="Easter Saturday" date="16/04/2022"></holiday>
+		<holiday name="Easter Sunday" date="17/04/2022"></holiday>
+		<holiday name="Easter Monday" date="18/04/2022"></holiday>
+		<holiday name="Anzac Day" date="25/04/2022"></holiday>
+		<holiday name="Labour Day" date="02/05/2022"></holiday>
+		<holiday name="EKKA (Brisbane Only)" date="10/08/2022"></holiday>
+		<holiday name="Queen's Birthday" date="03/10/2022"></holiday>
+		<holiday name="Christmas Eve (6PM-12AM)" date="24/12/2022"></holiday>
+		<holiday name="Boxing Day" date="26/12/2022"></holiday>
+		<holiday name="Christmas Day" date="27/12/2022"></holiday>
+	</state>
+	<state>
+		<name>NSW</name>
+		<term>
+			<num>One</num>
+			<startDate>28/01/2022</startDate>
+			<endDate>08/04/2022</endDate>
+		</term>
+		<term>
+			<num>Two</num>
+			<startDate>26/04/2022</startDate>
+			<endDate>01/07/2022</endDate>
+		</term>
+		<term>
+			<num>Three</num>
+			<startDate>18/07/2022</startDate>
+			<endDate>23/09/2022</endDate>
+		</term>
+		<term>
+			<num>Four</num>
+			<startDate>10/10/2022</startDate>
+			<endDate>20/12/2022</endDate>
+		</term>
+		<holiday name="New Year's Day" date="03/01/2022"></holiday>
+		<holiday name="Australia Day" date="26/01/2022"></holiday>
+		<holiday name="Good Friday" date="15/04/2022"></holiday>
+		<holiday name="Easter Saturday" date="16/04/2022"></holiday>
+		<holiday name="Easter Sunday" date="17/04/2022"></holiday>
+		<holiday name="Easter Monday" date="18/04/2022"></holiday>
+		<holiday name="Anzac Day" date="25/04/2022"></holiday>
+		<holiday name="Queen's Birthday" date="13/06/2022"></holiday>
+		<holiday name="Bank Holiday" date="01/08/2022"></holiday>
+		<holiday name="Labour Day" date="03/10/2022"></holiday>
+		<holiday name="Boxing Day" date="26/12/2022"></holiday>
+		<holiday name="Christmas Day" date="27/12/2022"></holiday>
+	</state>
+	<state>
+		<name>VIC</name>
+		<term>
+			<num>One</num>
+			<startDate>28/01/2022</startDate>
+			<endDate>08/04/2022</endDate>
+		</term>
+		<term>
+			<num>Two</num>
+			<startDate>26/04/2022</startDate>
+			<endDate>24/06/2022</endDate>
+		</term>
+		<term>
+			<num>Three</num>
+			<startDate>11/07/2022</startDate>
+			<endDate>16/09/2022</endDate>
+		</term>
+		<term>
+			<num>Four</num>
+			<startDate>03/10/2022</startDate>
+			<endDate>20/12/2022</endDate>
+		</term>
+		<holiday name="New Year's Day" date="03/01/2022"></holiday>
+		<holiday name="Australia Day" date="26/01/2022"></holiday>
+		<holiday name="Labour Day" date="14/03/2022"></holiday>
+		<holiday name="Good Friday" date="15/04/2022"></holiday>
+		<holiday name="Easter Saturday" date="16/04/2022"></holiday>
+		<holiday name="Easter Sunday" date="17/04/2022"></holiday>
+		<holiday name="Easter Monday" date="18/04/2022"></holiday>
+		<holiday name="Anzac Day" date="25/04/2022"></holiday>
+		<holiday name="Queen's Birthday" date="13/06/2022"></holiday>
+		<holiday name="Melbourne Cup" date="01/11/2022"></holiday>
+		<holiday name="Boxing Day" date="26/12/2022"></holiday>
+		<holiday name="Christmas Day" date="27/12/2022"></holiday>
+	</state>
+	<state>
+		<name>TAS</name>
+		<term>
+			<num>One</num>
+			<startDate>28/01/2022</startDate>
+			<endDate>08/04/2022</endDate>
+		</term>
+		<term>
+			<num>Two</num>
+			<startDate>26/04/2022</startDate>
+			<endDate>02/07/2022</endDate>
+		</term>
+		<term>
+			<num>Three</num>
+			<startDate>20/07/2022</startDate>
+			<endDate>24/09/2022</endDate>
+		</term>
+		<term>
+			<num>Four</num>
+			<startDate>11/10/2022</startDate>
+			<endDate>16/12/2022</endDate>
+		</term>
+		<holiday name="New Year's Day" date="03/01/2022"></holiday>
+		<holiday name="Devonport Cup" date="05/01/2022"></holiday>
+		<holiday name="Australia Day" date="26/01/2022"></holiday>
+		<holiday name="Royal Hobart Regatta" date="14/02/2022"></holiday>
+		<holiday name="Launceston Cup" date="23/02/2022"></holiday>
+		<holiday name="King Island Show" date="01/03/2022"></holiday>
+		<holiday name="Eight Hours Day" date="14/03/2022"></holiday>
+		<holiday name="Good Friday" date="15/04/2022"></holiday>
+		<holiday name="Easter Monday" date="18/04/2022"></holiday>
+		<holiday name="Easter Tuesday" date="19/04/2022"></holiday>
+		<holiday name="Anzac Day" date="25/04/2022"></holiday>
+		<holiday name="AGFest (Circular Head Only)" date="06/05/2022"></holiday>
+		<holiday name="Queen's Birthday" date="13/06/2022"></holiday>
+		<holiday name="Burnie Show" date="30/09/2022"></holiday>
+		<holiday name="Royal Launceston Show" date="06/10/2022"></holiday>
+		<holiday name="Flinders Island Show" date="14/10/2022"></holiday>
+		<holiday name="Royal Hobart Show" date="20/10/2022"></holiday>
+		<holiday name="Recreation Day" date="07/11/2022"></holiday>
+		<holiday name="Devonport Show" date="25/11/2022"></holiday>
+		<holiday name="Boxing Day" date="26/12/2022"></holiday>
+		<holiday name="Christmas Day" date="27/12/2022"></holiday>
+	</state>
+	<state>
+		<name>ACT</name>
+		<term>
+			<num>One</num>
+			<startDate>28/01/2022</startDate>
+			<endDate>08/04/2022</endDate>
+		</term>
+		<term>
+			<num>Two</num>
+			<startDate>26/04/2022</startDate>
+			<endDate>01/07/2022</endDate>
+		</term>
+		<term>
+			<num>Three</num>
+			<startDate>18/07/2022</startDate>
+			<endDate>23/09/2022</endDate>
+		</term>
+		<term>
+			<num>Four</num>
+			<startDate>10/10/2022</startDate>
+			<endDate>16/12/2022</endDate>
+		</term>
+		<holiday name="New Year's Day" date="03/01/2022"></holiday>
+		<holiday name="Australia Day" date="26/01/2022"></holiday>
+		<holiday name="Canberra Day" date="14/03/2022"></holiday>
+		<holiday name="Good Friday" date="15/04/2022"></holiday>
+		<holiday name="Easter Saturday" date="16/04/2022"></holiday>
+		<holiday name="Easter Sunday" date="17/04/2022"></holiday>
+		<holiday name="Easter Monday" date="18/04/2022"></holiday>
+		<holiday name="Anzac Day" date="25/04/2022"></holiday>
+		<holiday name="Reconcilliation Day" date="30/05/2022"></holiday>
+		<holiday name="Queen's Birthday" date="13/06/2022"></holiday>
+		<holiday name="Labour Day" date="13/10/2022"></holiday>
+		<holiday name="Boxing Day" date="26/12/2022"></holiday>
+		<holiday name="Christmas Day" date="27/12/2022"></holiday>
+	</state>
+	<state>
+		<name>SA</name>
+		<term>
+			<num>One</num>
+			<startDate>31/01/2022</startDate>
+			<endDate>14/04/2022</endDate>
+		</term>
+		<term>
+			<num>Two</num>
+			<startDate>02/05/2022</startDate>
+			<endDate>08/07/2022</endDate>
+		</term>
+		<term>
+			<num>Three</num>
+			<startDate>25/07/2022</startDate>
+			<endDate>30/09/2022</endDate>
+		</term>
+		<term>
+			<num>Four</num>
+			<startDate>17/10/2022</startDate>
+			<endDate>16/12/2022</endDate>
+		</term>
+		<holiday name="New Year's Day" date="03/01/2022"></holiday>
+		<holiday name="Australia Day" date="26/01/2022"></holiday>
+		<holiday name="Adelaide Cup" date="14/03/2022"></holiday>
+		<holiday name="Good Friday" date="15/04/2022"></holiday>
+		<holiday name="Easter Saturday" date="16/04/2022"></holiday>
+		<holiday name="Easter Monday" date="18/04/2022"></holiday>
+		<holiday name="Anzac Day" date="25/04/2022"></holiday>
+		<holiday name="Queen's Birthday" date="13/06/2022"></holiday>
+		<holiday name="Labour Day" date="03/10/2022"></holiday>
+		<holiday name="Christmas Eve (7PM-12AM)" date="24/12/2022"></holiday>
+		<holiday name="Proclamation Day" date="26/12/2022"></holiday>
+		<holiday name="Proclamation Day Holiday" date="27/12/2022"></holiday>
+		<holiday name="New Year's Eve (7PM-12AM)" date="31/12/2022"></holiday>
+	</state>
+	<state>
+		<name>NT</name>
+		<term>
+			<num>One</num>
+			<startDate>31/01/2022</startDate>
+			<endDate>08/04/2022</endDate>
+		</term>
+		<term>
+			<num>Two</num>
+			<startDate>19/04/2022</startDate>
+			<endDate>24/06/2022</endDate>
+		</term>
+		<term>
+			<num>Three</num>
+			<startDate>19/07/2022</startDate>
+			<endDate>23/09/2022</endDate>
+		</term>
+		<term>
+			<num>Four</num>
+			<startDate>10/10/2022</startDate>
+			<endDate>15/12/2022</endDate>
+		</term>
+		<holiday name="New Year's Day" date="03/01/2022"></holiday>
+		<holiday name="Australia Day" date="26/01/2022"></holiday>
+		<holiday name="Good Friday" date="15/04/2022"></holiday>
+		<holiday name="Easter Saturday" date="16/04/2022"></holiday>
+		<holiday name="Easter Monday" date="18/04/2022"></holiday>
+		<holiday name="Anzac Day" date="25/04/2022"></holiday>
+		<holiday name="May Day" date="02/05/2022"></holiday>
+		<holiday name="Queen's Birthday" date="13/06/2022"></holiday>
+		<holiday name="Alice Springs Show" date="01/07/2022"></holiday>
+		<holiday name="Tennant Creek Show" date="08/07/2022"></holiday>
+		<holiday name="Katherine Show" date="15/07/2022"></holiday>
+		<holiday name="Darwin Show" date="22/07/2022"></holiday>
+		<holiday name="Picnic Day" date="01/08/2022"></holiday>
+		<holiday name="Borroloola Show" date="19/08/2022"></holiday>
+		<holiday name="Christmas Eve (7PM-12AM)" date="24/12/2022"></holiday>
+		<holiday name="Christmas Day" date="26/12/2022"></holiday>
+		<holiday name="Boxing Day" date="27/12/2022"></holiday>
+		<holiday name="New Year's Eve (7PM-12AM)" date="31/12/2022"></holiday>
+	</state>
+	<state>
+		<name>WA</name>
+		<term>
+			<num>One</num>
+			<startDate>31/01/2022</startDate>
+			<endDate>08/04/2022</endDate>
+		</term>
+		<term>
+			<num>Two</num>
+			<startDate>26/04/2022</startDate>
+			<endDate>01/07/2022</endDate>
+		</term>
+		<term>
+			<num>Three</num>
+			<startDate>18/07/2022</startDate>
+			<endDate>23/09/2022</endDate>
+		</term>
+		<term>
+			<num>Four</num>
+			<startDate>10/10/2022</startDate>
+			<endDate>15/12/2022</endDate>
+		</term>
+		<holiday name="New Year's Day" date="03/01/2022"></holiday>
+		<holiday name="Australia Day" date="26/01/2022"></holiday>
+		<holiday name="Labour Day" date="07/03/2022"></holiday>
+		<holiday name="Good Friday" date="15/04/2022"></holiday>
+		<holiday name="Easter Monday" date="18/04/2022"></holiday>
+		<holiday name="Anzac Day" date="25/04/2022"></holiday>
+		<holiday name="WA Day" date="06/06/2022"></holiday>
+		<holiday name="Queen's Birthday" date="26/09/2022"></holiday>
+		<holiday name="Christmas Day" date="26/12/2022"></holiday>
+		<holiday name="Boxing Day" date="27/12/2022"></holiday>
+	</state>
+</holidays>
