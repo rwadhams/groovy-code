@@ -1,0 +1,100 @@
+<tripPlanner>
+	<startDate>20220624</startDate>
+	<locationNights>
+		<location>Charleville</location>
+		<nights>7</nights>
+		<thingsToDo>7: Brisbane to Charleville</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Birdsville</location>
+		<nights>7</nights>
+		<thingsToDo>7: Quilpie, Eromanga, &amp; Windorah</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Boulia</location>
+		<nights>5</nights>
+		<thingsToDo>5: Bedourie, Camel Races</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Alice Springs</location>
+		<nights>8</nights>
+		<thingsToDo>8: Plenty Hwy</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Marla</location>
+		<nights>12</nights>
+		<thingsToDo>12: MacDonnell Ranges, Yulara, Olgas, Kings Canyon</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Marree</location>
+		<nights>5</nights>
+		<thingsToDo>5: Oodnadatta Track, Lake Eyre</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Wilpena Pound</location>
+		<nights>14</nights>
+		<thingsToDo>14: Gammon Ranges &amp; Flinders Range</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Moonta Bay</location>
+		<nights>4</nights>
+		<thingsToDo>4: Top of the Yorke Peninsula, Visit friends</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Nuriootpa</location>
+		<nights>14</nights>
+		<thingsToDo>14: Blyth, Clare &amp; Barossa Valley</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Adelaide</location>
+		<nights>6</nights>
+		<thingsToDo>6: </thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Meningie</location>
+		<nights>7</nights>
+		<thingsToDo>7: </thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mount Gambier</location>
+		<nights>12</nights>
+		<thingsToDo>12: Coorong, Kingston SE &amp; Robe</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Naracoorte</location>
+		<nights>7</nights>
+		<thingsToDo>7: Caves</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Halls Gap</location>
+		<nights>12</nights>
+		<thingsToDo>12: Grampians</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Port Campbell</location>
+		<nights>10</nights>
+		<thingsToDo>10: Great Ocean Road</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Lorne</location>
+		<nights>7</nights>
+		<thingsToDo>7: Great Otway NP, Apollo Bay</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Geelong</location>
+		<nights>5</nights>
+		<thingsToDo>5: </thingsToDo>
+	</locationNights>
+	<!--
+	<locationNights>
+		<location>John Crawford Marine</location>
+		<nights>7</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location></location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	-->
+</tripPlanner>

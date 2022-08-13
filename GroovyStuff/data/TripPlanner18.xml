@@ -1,0 +1,166 @@
+<tripPlanner>
+	<startDate>20220625</startDate>
+	<locationNights>
+		<location>Bowenville</location>
+		<nights>1</nights>
+		<thingsToDo>Rest at Pub</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Chinchilla</location>
+		<nights>1</nights>
+		<thingsToDo>Chinchilla, Fix brake magnet</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Judds Lagoon (Yuleba)</location>
+		<nights>1</nights>
+		<thingsToDo>Birdwatching</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mitchell (Neil Turner Weir)</location>
+		<nights>1</nights>
+		<thingsToDo>Hot Springs</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Charleville (CMCA)</location>
+		<nights>2</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Quilpie (Bulloo River)</location>
+		<nights>2</nights>
+		<thingsToDo>Bulloo river walk (fishing), fossicking for opals, climb Baldy Top Lookout, visit the Opal Altar at St Finbarr’s Church or head to the Visitor Information Centre.</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Eramanga (Rest Area)</location>
+		<nights>2</nights>
+		<thingsToDo>Living History Centre, Eromanga Royal Hotel est. 1885, Knot-a-saurus and Opalopolis Park and enjoy a picnic by the famous Kyabra waterhole.</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Windorah (Cooper Creek)</location>
+		<nights>1</nights>
+		<thingsToDo>Nature drive,  Ourdel Station, west of Windorah, have great views and some of the reddest sand ever seen</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Morney Rest Area</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Monkira Rest Area</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Bedourie (Racecourse)</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Georgina River Crossing</location>
+		<nights>2</nights>
+		<thingsToDo>Red Claw fishing</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Boulia (Racecourse)</location>
+		<nights>5</nights>
+		<thingsToDo>Camel Races</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Tobermorey Station</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Jervois</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Gemtree Caravan Park</location>
+		<nights>2</nights>
+		<thingsToDo>Walks, Fossicking</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Alice Springs</location>
+		<nights>4</nights>
+		<thingsToDo>Medical stuff</thingsToDo>
+	</locationNights>
+
+	<locationNights>
+		<location>Marla</location>
+		<nights>12</nights>
+		<thingsToDo>12: MacDonnell Ranges, Yulara, Olgas, Kings Canyon</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Marree</location>
+		<nights>5</nights>
+		<thingsToDo>5: Oodnadatta Track, Lake Eyre</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Wilpena Pound</location>
+		<nights>14</nights>
+		<thingsToDo>14: Gammon Ranges &amp; Flinders Range</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Moonta Bay</location>
+		<nights>4</nights>
+		<thingsToDo>4: Top of the Yorke Peninsula, Visit friends</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Nuriootpa</location>
+		<nights>14</nights>
+		<thingsToDo>14: Blyth, Clare &amp; Barossa Valley</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Adelaide</location>
+		<nights>6</nights>
+		<thingsToDo>6: </thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Meningie</location>
+		<nights>7</nights>
+		<thingsToDo>7: </thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mount Gambier</location>
+		<nights>12</nights>
+		<thingsToDo>12: Coorong, Kingston SE &amp; Robe</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Naracoorte</location>
+		<nights>7</nights>
+		<thingsToDo>7: Caves</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Halls Gap</location>
+		<nights>12</nights>
+		<thingsToDo>12: Grampians</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Port Campbell</location>
+		<nights>10</nights>
+		<thingsToDo>10: Great Ocean Road</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Lorne</location>
+		<nights>7</nights>
+		<thingsToDo>7: Great Otway NP, Apollo Bay</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Geelong</location>
+		<nights>5</nights>
+		<thingsToDo>5: </thingsToDo>
+	</locationNights>
+	<!--
+	<locationNights>
+		<location>John Crawford Marine</location>
+		<nights>7</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location></location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	-->
+</tripPlanner>

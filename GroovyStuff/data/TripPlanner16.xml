@@ -1,0 +1,115 @@
+<tripPlanner>
+	<startDate>20220214</startDate>
+	<locationNights>
+		<location>Port Lincoln</location>
+		<nights>4</nights>
+		<thingsToDo>Fishing Charter, Lincoln NP walks, 45km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Coffin Bay</location>
+		<nights>2</nights>
+		<thingsToDo>???, drive: 140km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Elliston</location>
+		<nights>2</nights>
+		<thingsToDo>???, drive: 65km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Venus Bay</location>
+		<nights>2</nights>
+		<thingsToDo>???, drive: 80km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Streaky Bay</location>
+		<nights>5</nights>
+		<thingsToDo>???, drive: 110km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Ceduna</location>
+		<nights>2</nights>
+		<thingsToDo>???, drive: 210km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Wudinna</location>
+		<nights>2</nights>
+		<thingsToDo>???, drive: 100km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Kimba</location>
+		<nights>2</nights>
+		<thingsToDo>???, drive: 210km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Melrose</location>
+		<nights>2</nights>
+		<thingsToDo>Mt Remarkable NP, drive: 90km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Peterborough</location>
+		<nights>1</nights>
+		<thingsToDo>Railway Museum, drive: 300km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Broken Hill</location>
+		<nights>2</nights>
+		<thingsToDo>Mine tour???, drive: 200km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Wilcannia</location>
+		<nights>1</nights>
+		<thingsToDo>???, drive: 260km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Cobar</location>
+		<nights>1</nights>
+		<thingsToDo>???, drive: 160km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Bourke</location>
+		<nights>1</nights>
+		<thingsToDo>???, drive: 300km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Lightning Ridge</location>
+		<nights>2</nights>
+		<thingsToDo>Opal fossicking, drive: 270km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Moree</location>
+		<nights>2</nights>
+		<thingsToDo>Hot pools, drive:  140km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Inverell</location>
+		<nights>2</nights>
+		<thingsToDo>Fossicking, drive:  160km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Tenterfield</location>
+		<nights>3</nights>
+		<thingsToDo>???, drive: 200km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mullimbimby</location>
+		<nights>4</nights>
+		<thingsToDo>Family camping, drive: 155km</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Brisbane</location>
+		<nights>14</nights>
+		<thingsToDo>Spending time w/ Mum, Preparing for US trip</thingsToDo>
+	</locationNights>
+	<!--
+	<locationNights>
+		<location>John Crawford Marine</location>
+		<nights>7</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location></location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	-->
+</tripPlanner>

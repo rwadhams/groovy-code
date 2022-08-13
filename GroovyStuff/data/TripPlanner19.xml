@@ -1,0 +1,180 @@
+<tripPlanner>
+	<startDate>20220712</startDate>
+	<locationNights>
+		<location>Boulia (Racecourse)</location>
+		<nights>6</nights>
+		<thingsToDo>Camel Races</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Tobermorey Station</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Jervois</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Gemtree Caravan Park</location>
+		<nights>2</nights>
+		<thingsToDo>Walks, Fossicking</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Alice Springs</location>
+		<nights>5</nights>
+		<thingsToDo>Medical stuff, Repairs, Resupply</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Hugh River</location>
+		<nights>2</nights>
+		<thingsToDo>Standley Charm, Repairs</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Neil Hargraves Lookout</location>
+		<nights>1</nights>
+		<thingsToDo>Ellery Big Hole</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Gosse Bluff Gravel Pit</location>
+		<nights>1</nights>
+		<thingsToDo>Ormiston Gorge</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Ginty's Lookout</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Kings Canyon Resort</location>
+		<nights>1</nights>
+		<thingsToDo>King Canyon Rim Walk</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Salt Creek Rest Area</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Curtin Strings</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Yulara</location>
+		<nights>2</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Erldunda Roadhouse</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Cadney Park</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Arkaringa</location>
+		<nights>2</nights>
+		<thingsToDo>Painted Desert</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Oodnadatta</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Coward Springs</location>
+		<nights>1</nights>
+		<thingsToDo>Lake Eyre</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Marree</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Copley</location>
+		<nights>1</nights>
+		<thingsToDo>Bakery</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Arkaroola Village</location>
+		<nights>2</nights>
+		<thingsToDo>Ridgetop Tour</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Blinman</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Flinders Range</location>
+		<nights>9</nights>
+		<thingsToDo>Parachilna, Brachina, Wilpena Pound, Rawnsley Park</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Moonta Bay</location>
+		<nights>4</nights>
+		<thingsToDo>Top of the Yorke Peninsula, Visit friends</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Nuriootpa</location>
+		<nights>10</nights>
+		<thingsToDo>Blyth, Clare &amp; Barossa Valley</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Adelaide</location>
+		<nights>6</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Meningie</location>
+		<nights>6</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mount Gambier</location>
+		<nights>12</nights>
+		<thingsToDo>Princess Hwy; Coorong, Kingston SE &amp; Robe</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Naracoorte</location>
+		<nights>7</nights>
+		<thingsToDo>Caves</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Halls Gap</location>
+		<nights>12</nights>
+		<thingsToDo>Grampians</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Port Campbell</location>
+		<nights>10</nights>
+		<thingsToDo>Great Ocean Road</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Lorne</location>
+		<nights>7</nights>
+		<thingsToDo>Great Otway NP, Apollo Bay</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Geelong</location>
+		<nights>5</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<!--
+	<locationNights>
+		<location>John Crawford Marine</location>
+		<nights>7</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location></location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	-->
+</tripPlanner>

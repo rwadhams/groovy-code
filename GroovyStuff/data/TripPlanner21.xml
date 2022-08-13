@@ -1,0 +1,135 @@
+<tripPlanner>
+	<startDate>20220810</startDate>
+	<locationNights>
+		<location>Murray Bridge</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Bordertown</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Ararat</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>RockBank</location>
+		<nights>2</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Campbellfield</location>
+		<nights>5</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Ballarat</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Grampians</location>
+		<nights>3</nights>
+		<thingsToDo>Halls Gap, Dunkeld</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mount Gambier</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Coonawarra</location>
+		<nights>4</nights>
+		<thingsToDo>Wineries</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Naracoorte</location>
+		<nights>2</nights>
+		<thingsToDo>Caves</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Keith</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>McClaren Vale</location>
+		<nights>11</nights>
+		<thingsToDo>Extra day before, Housesit</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Port Elliot</location>
+		<nights>6</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Milang</location>
+		<nights>2</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Narrung</location>
+		<nights>2</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Meningie</location>
+		<nights>5</nights>
+		<thingsToDo>Coorong</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Kingston SE</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Robe</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Millicent</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mount Gambier</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Portland coastline</location>
+		<nights>7</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Port Campbell</location>
+		<nights>10</nights>
+		<thingsToDo>Great Ocean Road</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Lorne</location>
+		<nights>10</nights>
+		<thingsToDo>Great Otway NP, Apollo Bay</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Geelong</location>
+		<nights>6</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<!--
+	<locationNights>
+		<location>John Crawford Marine</location>
+		<nights>7</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location></location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	-->
+</tripPlanner>
