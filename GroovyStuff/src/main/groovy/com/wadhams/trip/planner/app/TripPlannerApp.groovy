@@ -2,7 +2,8 @@ package com.wadhams.trip.planner.app
 
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
-
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 import groovy.transform.ToString
 
 class TripPlannerApp {
@@ -31,8 +32,8 @@ class TripPlannerApp {
 	def execute(String filename) {
 		def tripPlanner = new XmlSlurper().parse(new File(filename))
 		
-		SimpleDateFormat sdf = new SimpleDateFormat('yyyyMMdd')
-		Date startDate = sdf.parse(tripPlanner.startDate.text())
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern('yyyyMMdd')
+		LocalDate startDate = LocalDate.parse(tripPlanner.startDate.text(), dtf)
 		//println startDate
 		
 		List<LocationNights> ldlist = buildLocationNightsList(tripPlanner.locationNights)
@@ -40,14 +41,15 @@ class TripPlannerApp {
 		report(startDate, ldlist)
 	}
 	
-	def report(Date startingDate, List<LocationNights> ldlist) {
-		SimpleDateFormat sdf = new SimpleDateFormat('EEE, MMM d, yyyy')
+	def report(LocalDate startingDate, List<LocationNights> ldlist) {
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern('EEE, MMM d, yyyy')
 		
-		Date reportDate = startingDate
+		LocalDate reportDate = startingDate
 		ldlist.each {ld ->
+			//println ld
 			boolean firstNight = true
 			ld.nights.times {
-				println "${sdf.format(reportDate)}\t${ld.location}${(firstNight) ? "...: ${ld.thingsToDo}" : ''}"
+				println "${dtf.format(reportDate)}\t${ld.location}${(firstNight) ? "...: ${ld.nights}: ${ld.thingsToDo}" : ''}"
 				firstNight = false
 				reportDate = reportDate.next()
 			}
