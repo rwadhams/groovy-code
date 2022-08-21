@@ -41,32 +41,41 @@ class HolidayApp {
 		List<State> stateList = buildStateList(states)
 //		println stateList
 //		println ''
-
-		reportTermHolidays(stateList)
 		
-		reportHolidaysByState(stateList)
-		
-		reportHolidaysByDate(stateList)
-	}
-	
-	def reportHolidaysByState(List<State> stateList) {
-		DateTimeFormatter dayddmmyyyy = DateTimeFormatter.ofPattern('EEE dd/MM/yyyy')
-		println 'Holidays reported by state'
-		println '--------------------------'
-		stateList.each {s ->
-			println s.name
-			s.holidays.each {h ->
-				println "\t${h.date.format(dayddmmyyyy)}\t${h.name}"
-			}
-			println ''
+		File f1 = new File("out/${year}-school-holiday-report.txt")
+		f1.withPrintWriter {pw ->
+			reportTermHolidays(stateList, year, pw)
 		}
-		println ''
+		
+		File f2 = new File("out/${year}-holidays-by-state-report.txt")
+		f2.withPrintWriter {pw ->
+			reportHolidaysByState(stateList, year, pw)
+		}
+		
+		File f3 = new File("out/${year}-holidays-by-date-report.txt")
+		f3.withPrintWriter {pw ->
+			reportHolidaysByDate(stateList, year, pw)
+		}
 	}
 	
-	def reportHolidaysByDate(List<State> stateList) {
+	def reportHolidaysByState(List<State> stateList, int year, PrintWriter pw) {
 		DateTimeFormatter dayddmmyyyy = DateTimeFormatter.ofPattern('EEE dd/MM/yyyy')
-		println 'Holidays reported by date'
-		println '-------------------------'
+		pw.println "Holidays reported by state for $year"
+		pw.println '-----------------------------------'
+		stateList.each {s ->
+			pw.println s.name
+			s.holidays.each {h ->
+				pw.println "\t${h.date.format(dayddmmyyyy)}\t${h.name}"
+			}
+			pw.println ''
+		}
+		pw.println ''
+	}
+	
+	def reportHolidaysByDate(List<State> stateList, int year, PrintWriter pw) {
+		DateTimeFormatter dayddmmyyyy = DateTimeFormatter.ofPattern('EEE dd/MM/yyyy')
+		pw.println "Holidays reported by date for $year"
+		pw.println '----------------------------------'
 
 		//build map keyed by LocalDate		
 		Map<LocalDate, Map<String, List>> dateMap = [:] as TreeMap
@@ -91,7 +100,7 @@ class HolidayApp {
 		}
 
 		dateMap.each {k1,holidayMap ->
-			println "${k1.format(dayddmmyyyy)}"
+			pw.println "${k1.format(dayddmmyyyy)}"
 			//find the length of the longest holiday name
 			int holidayNameLength = 0
 			holidayMap.keySet().each {hn ->
@@ -101,19 +110,23 @@ class HolidayApp {
 			}
 			
 			holidayMap.each {k2,holidayStateList ->
-				println "\t${k2.padRight(holidayNameLength, ' ')}   $holidayStateList"
+				pw.println "\t${k2.padRight(holidayNameLength, ' ')}   $holidayStateList"
 			}
-			println ''
+			pw.println ''
 		}
-		println ''
+		pw.println ''
 	}
 	
-	def reportTermHolidays(List<State> stateList) {
+	def reportTermHolidays(List<State> stateList, int year, PrintWriter pw) {
 		DateTimeFormatter ddmm = DateTimeFormatter.ofPattern('dd/MM')
 
+		pw.println "School Holidays for $year"
+		pw.println '-------------------------'
+		pw.println ''
+		
 		List<String> holidayNameList = ['BeforeSchoolYear','Autumn School Holidays','Winter School Holidays','Spring School Holidays','AfterSchoolYear']
 		holidayNameList.size().times {index ->
-			println holidayNameList[index]
+			pw.println holidayNameList[index]
 			Set<LocalDate> termHolidays = []
 			stateList.each {s ->
 				termHolidays.addAll(s.termHolidays[index])
@@ -121,9 +134,9 @@ class HolidayApp {
 			List<LocalDate> termHolidaysSorted = termHolidays.sort()
 	
 			termHolidaysSorted.each {ld ->
-				print "${ld.format(ddmm)} "
+				pw.print "${ld.format(ddmm)} "
 			}
-			println ''
+			pw.println ''
 			
 			stateList.each {s ->
 				String stateName = s.name
@@ -133,17 +146,17 @@ class HolidayApp {
 				
 				termHolidays.each {ld ->
 					if (s.termHolidays[index].contains(ld)) {
-						print " ${stateName}  "
+						pw.print " ${stateName}  "
 					}
 					else {
-						print '      '
+						pw.print '      '
 					}
 				}
-				println ''
+				pw.println ''
 			}
-			println ''
+			pw.println ''
 		}
-		println ''
+		pw.println ''
 	}
 	
 	List<State> buildStateList(states) {
