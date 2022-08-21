@@ -1,0 +1,252 @@
+<caravanMaintenanceItems>
+	<!-- Frequency: weekly(7), monthly(30), quarterly(90), halfyearly(180), yearly(365) -->
+	<item>
+		<name>Tunnel Boot Frames</name>
+		<maint>Clean. Brush away dirt and dust.</maint>
+		<maint>Check each screw around frame, tighten as required.</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>Stabiliser Legs</name>
+		<maint>Clean. Remove dirt and dust.</maint>
+		<maint>Grease internal gears.</maint>
+		<maint>Lube release mechanism.</maint>
+		<maint>Check split ring on boot pin, replace as required.</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>Smoke Detector</name>
+		<maint>Test.</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>Fire Extinguisher</name>
+		<maint>Test.</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>Locks</name>
+		<maint>Caravan door. Lube.</maint>
+		<maint>Tunnel Boots. Lube.</maint>
+		<maint>External Shower, TV. Lube.</maint>
+		<maint>Toolbox. Lube.</maint>
+		<maint>Jerry Can Padlocks. Lube.</maint>
+		<maint>Propane Padlock. Lube.</maint>
+		<maint>Blue Storage Container Padlock. Lube.</maint>
+		<maint>Spare Tyre Padlocks. Lube.</maint>
+		<maint>Water Fillers. Lube.</maint>
+		<maint>DO35 Lock. Lube.</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>DO35</name>
+		<maint>Lube with grease gun.</maint>
+		<maint>Lube mechanism.</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>A-Frame Electrical Cables</name>
+		<maint>Clean. Lube 12-pin plug/socket.</maint>
+		<maint>Clean. Lube Anderson plug/socket.</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>Trailer Breakaway</name>
+		<maint>Test. Pull plug and verify locked brakes.</maint>
+		<maint>Test battery.</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>Jockey Wheel</name>
+		<maint>Lube with grease gun.</maint>
+		<frequency>30</frequency>
+	</item>
+	<item>
+		<name>Toolbox</name>
+		<maint>Clean. Brush out dirt and dust.</maint>
+		<maint>Lube hinges with grease gun.</maint>
+		<maint>Grease latch mechanism.</maint>
+		<maint>Lube slide.</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>Awning</name>
+		<maint>Clean. Wash with warm soapy water.</maint>
+		<maint>Check fitting. Tighten as required.</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>External Shower</name>
+		<maint>Clean compartment of dirt and dust.</maint>
+		<maint>Test. Both hot and cold water.</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>Solar Panels</name>
+		<maint>Wash with warm water.</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>TV</name>
+		<maint>Tighten bracket</maint>
+		<maint>Check wall mounts. Tighten as required.</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>Internal Screws</name>
+		<maint>Spotlights</maint>
+		<maint>12V sockets</maint>
+		<maint>Piana hinges</maint>
+		<maint>Drawers &amp; Latches</maint>
+		<maint>Speakers</maint>
+		<maint>MaxxFan</maint>
+		<maint>Fire Extinguisher compartment</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>External Screws</name>
+		<maint>Awning bracket</maint>
+		<maint>Speakers</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>Grey Water</name>
+		<maint>Sanitise</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>Fresh Water Tanks</name>
+		<maint>Open/Close values. Drain. Mild bleach sanitise.</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>Water Pump</name>
+		<maint>Open/Close values 1/2. Inspect/Clean filter/bulb.</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>MaxxFan</name>
+		<maint>Clean screen.</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>Diesel Heater</name>
+		<maint>Inspect/Change fuel filter</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>Bed</name>
+		<maint>Tighten corner brackets under bed.</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>Sliding Door</name>
+		<maint>Check. Tighten hardware</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>SlideOut Pantry</name>
+		<maint>Tighten screws</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>Rangehood</name>
+		<maint>Clean filter</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>Air Conditioner (1)</name>
+		<maint>Clean filters.</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>Air Conditioner (2)</name>
+		<maint>Test Hot/Cold/Dehumidifier modes</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>Water Filter</name>
+		<maint>Replace</maint>
+		<frequency>365</frequency>
+	</item>
+	<item>
+		<name>Stove</name>
+		<maint>Tighten screws</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>Washing Machine</name>
+		<maint>Tighten brackets</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>Suspension</name>
+		<maint>Use grease gun</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>EnerDrive System</name>
+		<maint>Blow out dust.</maint>
+		<maint>Tighten bolts.</maint>
+		<maint>Cycle power off, then power on.</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>Front Door</name>
+		<maint>Clean &amp; Polish.</maint>
+		<maint>Tighten screws.</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>Leather Lounge</name>
+		<maint>Clean.</maint>
+		<maint>Treat with Leather Guard.</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>Rear Table</name>
+		<maint>Check.</maint>
+		<maint>Lube.</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>Outside Side Tables</name>
+		<maint>Tighten screws.</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>Sirocco Fan</name>
+		<maint>Tighten screws.</maint>
+		<maint>Clean blades.</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>Rear Tube</name>
+		<maint>Check. Tighten bolts.</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>Caravan Wheels</name>
+		<maint>Check. Re-Torque lug nuts.</maint>
+		<frequency>90</frequency>
+	</item>
+	<item>
+		<name>Jerry Can Holders</name>
+		<maint>Wash out dirt &amp; dust.</maint>
+		<maint>Check U-bolts. Tighten as required.</maint>
+		<frequency>180</frequency>
+	</item>
+	<item>
+		<name>3-Bar Rear Bumper</name>
+		<maint>Check U-bolts. Tighten as required.</maint>
+		<frequency>180</frequency>
+	</item>
+
+	<!-- 
+	<item>
+		<name></name>
+		<maint></maint>
+		<frequency></frequency>
+	</item>
+	 -->
+</caravanMaintenanceItems>
