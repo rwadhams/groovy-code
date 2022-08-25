@@ -11,6 +11,7 @@ import groovy.transform.ToString
 class KardiaApp {
 	DateTimeFormatter dtf = DateTimeFormatter.ofPattern('dd/MM/yyyy HH:mm')
 	List<KardiaItem> kList
+	List<ListRange> listRangeList
 	
 	static main(args) {
 		println 'KardiaApp started...'
@@ -29,18 +30,24 @@ class KardiaApp {
 	
 	def execute(String kFilename) {
 		def k = new XmlSlurper().parse(new File(kFilename))
+		
 		kList = buildKardiaItemList(k.reading)
 //		println kList
 //		println ''
 		
-		List<ListRange> listRangeList = buildListRange()
+		listRangeList = buildListRange()
 //		println listRangeList
 //		println ''
 		
-		report(listRangeList)
+		File f = new File("out/kardia-report.txt")
+		f.withPrintWriter {pw ->
+			report(pw)
+			reportTotals(pw)
+		}
+
 	}
 	
-	def report(List<ListRange> listRangeList) {
+	def report(PrintWriter pw) {
 		DateTimeFormatter dtf1 = DateTimeFormatter.ofPattern('dd/MM/yyyy')
 		
 		listRangeList.each {rl ->
@@ -53,9 +60,24 @@ class KardiaApp {
 			String startDate = subList[0].dateTime.format(dtf1)
 			String endDate = subList[-1].dateTime.format(dtf1)
 			long days = ChronoUnit.DAYS.between(subList[0].dateTime.toLocalDate(), subList[-1].dateTime.toLocalDate()) + 1
+			String average = (avg as int).toString().padRight(3, ' ')
 			
-			println "$resultName${startDate} - ${endDate} (${days} days)\tAverage: ${avg as int}\tMin/Max: ${kMin.rate}/${kMax.rate}"
+			pw.println "$resultName${startDate} - ${endDate} (${days} days)\tAverage: ${average}\tMin/Max: ${kMin.rate}/${kMax.rate}"
 		}
+		pw.println ''
+	}
+	
+	def reportTotals(PrintWriter pw) {
+		long totalDays = ChronoUnit.DAYS.between(kList[0].dateTime.toLocalDate(), kList[-1].dateTime.toLocalDate()) + 1
+		
+		long pafDays = 0
+		listRangeList.each {rl ->
+			List<KardiaItem> subList = kList.subList(rl.startIndex, rl.endIndex+1)
+			if (subList[0].result == 'PAF') {
+				pafDays += ChronoUnit.DAYS.between(subList[0].dateTime.toLocalDate(), subList[-1].dateTime.toLocalDate()) + 1
+			}
+		}
+		pw.println "Total reporting period: $totalDays days. Possible Atrial Fibrillation: $pafDays days."
 	}
 	
 	def buildListRange() {
