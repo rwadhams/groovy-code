@@ -5,6 +5,7 @@ import java.text.SimpleDateFormat
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import groovy.transform.ToString
+import groovy.io.FileType
 
 class TripPlannerApp {
 	
@@ -14,7 +15,11 @@ class TripPlannerApp {
 
 		if (args.size() > 0) {
 			//args[0] must be a number (nn = 01, 02, 03...99). Filename pattern will be data/TripPlanner<nn>.xml
-			String fn = "data/TripPlanner${args[0]}.xml"
+			String prefix = "TripPlanner${args[0]}"
+			File baseDir = new File('data')
+			List filenameList = []
+			baseDir.eachFile(FileType.FILES) {filenameList << it.name}
+			String fn = "data/${filenameList.find{it.startsWith(prefix)}}"
 			println "Filename: $fn"
 			println ''
 			
