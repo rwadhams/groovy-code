@@ -97,9 +97,9 @@
 	<reading datetime="25/09/2022 08:03" rate="88" result="PAF" />
 	<reading datetime="26/09/2022 10:20" rate="86" result="PAF" />
 	<reading datetime="27/09/2022 13:22" rate="103" result="PAF" />
-	<medication name="Low dose Asprin" start="12/06/2022" end="26/09/2022" />
-	<medication name="Tensig-Atenolol 25mg (half tablet)" start="23/09/2022" end="" />
-	<medication name="Low dose Asprin (twice daily)" start="27/09/2022" end="28/09/2022" />
-	<medication name="Eliquis-Apixaban 5mg (2 in AM, 2 in PM)" start="28/09/2022" end="" />
-	<symptom name="Left leg calf strain. Possible DVT" start="26/09/2022" end="" />
+	<medication name="Low dose Asprin." start="12/06/2022" end="26/09/2022" />
+	<medication name="Tensig-Atenolol 25mg (half tablet)." start="23/09/2022" end="" />
+	<medication name="Low dose Asprin (twice daily)." start="27/09/2022" end="28/09/2022" />
+	<medication name="Eliquis-Apixaban 5mg (2 in AM, 2 in PM)." start="28/09/2022" end="" />
+	<symptom name="Left leg calf strain. Possible DVT." result="Confirmed 28/9/2022. 10-15cm." start="26/09/2022" end="" />
 </kardia>

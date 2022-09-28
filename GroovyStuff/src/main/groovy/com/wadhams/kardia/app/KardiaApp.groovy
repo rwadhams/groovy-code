@@ -29,13 +29,13 @@ class KardiaApp {
 	}
 	
 	def execute() {
-		String krFilename = 'data/Kardia_reading.xml'
-		println "Processing: $krFilename"
+		String kFilename = 'data/Kardia.xml'
+		println "Processing: $kFilename"
 		println ''
 		
-		def kr = new XmlSlurper().parse(new File(krFilename))
+		def k = new XmlSlurper().parse(new File(kFilename))
 		
-		krList = buildKardiaReadingList(kr.reading)
+		krList = buildKardiaReadingList(k.reading)
 //		println krList
 //		println ''
 		
@@ -43,23 +43,11 @@ class KardiaApp {
 //		println listRangeList
 //		println ''
 		
-		String kmFilename = 'data/Kardia_medication.xml'
-		println "Processing: $kmFilename"
-		println ''
-		
-		def km = new XmlSlurper().parse(new File(kmFilename))
-		
-		kmList = buildKardiaMedicationList(km.medication)
+		kmList = buildKardiaMedicationList(k.medication)
 //		println kmList
 //		println ''
 		
-		String ksFilename = 'data/Kardia_symptom.xml'
-		println "Processing: $ksFilename"
-		println ''
-		
-		def ks = new XmlSlurper().parse(new File(ksFilename))
-		
-		ksList = buildKardiaSymptomList(ks.symptom)
+		ksList = buildKardiaSymptomList(k.symptom)
 //		println ksList
 //		println ''
 		
@@ -124,15 +112,15 @@ class KardiaApp {
 	
 	def reportSymptoms(PrintWriter pw) {
 		int maxSymptomLength = 0
-		ksList.each {m ->
-			if (m.name.size() > maxSymptomLength) {
-				maxSymptomLength = m.name.size()
+		ksList.each {s ->
+			if (s.name.size() > maxSymptomLength) {
+				maxSymptomLength = s.name.size()
 			}
 		}
 		
-		ksList.each {m ->
-			long totalDays = ChronoUnit.DAYS.between(m.start, m.end) + 1
-			pw.println "Symptom: ${m.name.padRight(maxSymptomLength, ' ')} Start: ${m.start} End: ${m.end} ($totalDays days)"
+		ksList.each {s ->
+			long totalDays = ChronoUnit.DAYS.between(s.start, s.end) + 1
+			pw.println "Symptom: ${s.name.padRight(maxSymptomLength, ' ')} Result: ${s.result} Start: ${s.start} End: ${s.end} ($totalDays days)"
 		}
 		pw.println ''
 	}
@@ -192,6 +180,7 @@ class KardiaApp {
 		
 		symptoms.each {s ->
 			String name = s.@name
+			String result = s.@result
 			LocalDate start = LocalDate.parse(s.@start.text(), df)
 			LocalDate end = LocalDate.now()
 			String endDate = s.@end.text()
@@ -199,7 +188,7 @@ class KardiaApp {
 				end = LocalDate.parse(endDate, df)
 			}
 			
-			ksList << new KardiaSymptom(name : name, start : start, end : end)
+			ksList << new KardiaSymptom(name : name, result : result, start : start, end : end)
 		}
 		
 		return ksList
@@ -230,6 +219,7 @@ class KardiaMedication {
 @ToString
 class KardiaSymptom {
 	String name
+	String result
 	LocalDate start
 	LocalDate end
 }
