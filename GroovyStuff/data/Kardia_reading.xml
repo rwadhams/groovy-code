@@ -70,4 +70,36 @@
 	<reading datetime="27/08/2022 07:29" rate="54" result="NSR" />
 	<reading datetime="29/08/2022 12:39" rate="72" result="NSR" />
 	<reading datetime="02/09/2022 08:47" rate="52" result="NSR" />
+	<reading datetime="04/09/2022 09:01" rate="58" result="NSR" />
+	<reading datetime="05/09/2022 08:36" rate="59" result="NSR" />
+	<reading datetime="06/09/2022 10:07" rate="69" result="NSR" />
+	<reading datetime="08/09/2022 12:27" rate="64" result="NSR" />
+	<reading datetime="09/09/2022 09:21" rate="63" result="NSR" />
+	<reading datetime="12/09/2022 08:59" rate="56" result="NSR" />
+	<reading datetime="13/09/2022 08:51" rate="68" result="NSR" />
+	<reading datetime="14/09/2022 21:49" rate="153" result="PAF" />
+	<reading datetime="14/09/2022 21:57" rate="144" result="PAF" />
+	<reading datetime="15/09/2022 08:26" rate="124" result="PAF" />
+	<reading datetime="15/09/2022 22:29" rate="108" result="PAF" />
+	<reading datetime="16/09/2022 11:36" rate="146" result="PAF" />
+	<reading datetime="16/09/2022 21:17" rate="151" result="PAF" />
+	<reading datetime="17/09/2022 09:18" rate="118" result="PAF" />
+	<reading datetime="17/09/2022 22:45" rate="94" result="PAF" />
+	<reading datetime="18/09/2022 17:03" rate="106" result="PAF" />
+	<reading datetime="19/09/2022 09:45" rate="100" result="PAF" />
+	<reading datetime="20/09/2022 09:40" rate="99" result="PAF" />
+	<reading datetime="21/09/2022 09:57" rate="107" result="PAF" />
+	<reading datetime="22/09/2022 08:05" rate="146" result="PAF" />
+	<reading datetime="23/09/2022 08:22" rate="103" result="PAF" />
+	<reading datetime="23/09/2022 21:42" rate="94" result="PAF" />
+	<reading datetime="24/09/2022 08:41" rate="120" result="PAF" />
+	<reading datetime="24/09/2022 19:55" rate="94" result="PAF" />
+	<reading datetime="25/09/2022 08:03" rate="88" result="PAF" />
+	<reading datetime="26/09/2022 10:20" rate="86" result="PAF" />
+	<reading datetime="27/09/2022 13:22" rate="103" result="PAF" />
+	<medication name="Low dose Asprin" start="12/06/2022" end="26/09/2022" />
+	<medication name="Tensig-Atenolol 25mg (half tablet)" start="23/09/2022" end="" />
+	<medication name="Low dose Asprin (twice daily)" start="27/09/2022" end="28/09/2022" />
+	<medication name="Eliquis-Apixaban 5mg (2 in AM, 2 in PM)" start="28/09/2022" end="" />
+	<symptom name="Left leg calf strain. Possible DVT" start="26/09/2022" end="" />
 </kardia>
