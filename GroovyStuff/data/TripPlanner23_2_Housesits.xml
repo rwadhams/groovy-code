@@ -3,12 +3,7 @@
 	<locationNights>
 		<location>Dunkeld</location>
 		<nights>2</nights>
-		<thingsToDo></thingsToDo>
-	</locationNights>
-	<locationNights>
-		<location>Wannon</location>
-		<nights>1</nights>
-		<thingsToDo>Wannon Falls</thingsToDo>
+		<thingsToDo>Wannon Falls, Nigritta Falls</thingsToDo>
 	</locationNights>
 	<locationNights>
 		<location>Byaduk</location>
@@ -26,19 +21,14 @@
 		<thingsToDo></thingsToDo>
 	</locationNights>
 	<locationNights>
-		<location>Port MacDonnell</location>
-		<nights>2</nights>
-		<thingsToDo></thingsToDo>
-	</locationNights>
-	<locationNights>
 		<location>Mount Gambier</location>
-		<nights>2</nights>
+		<nights>3</nights>
 		<thingsToDo></thingsToDo>
 	</locationNights>
 	<locationNights>
-		<location>Coonawarra</location>
-		<nights>4</nights>
-		<thingsToDo>Wineries</thingsToDo>
+		<location>Penola</location>
+		<nights>2</nights>
+		<thingsToDo>Coonawarra Wineries</thingsToDo>
 	</locationNights>
 	<locationNights>
 		<location>Naracoorte</location>
@@ -46,39 +36,29 @@
 		<thingsToDo>Caves</thingsToDo>
 	</locationNights>
 	<locationNights>
-		<location>Tintinara</location>
-		<nights>1</nights>
-		<thingsToDo></thingsToDo>
-	</locationNights>
-	<locationNights>
-		<location>Landhorne Creek</location>
-		<nights>1</nights>
-		<thingsToDo>Frank Potts Reserve</thingsToDo>
-	</locationNights>
-	<locationNights>
-		<location>Port Elliot</location>
-		<nights>3</nights>
-		<thingsToDo></thingsToDo>
-	</locationNights>
-	<locationNights>
-		<location>McClaren Vale Housesit (One day beforehand)</location>
-		<nights>13</nights>
-		<thingsToDo>Sellicks Beach, Wine Tasting</thingsToDo>
-	</locationNights>
-	<locationNights>
-		<location>Murray Bridge</location>
-		<nights>1</nights>
-		<thingsToDo></thingsToDo>
-	</locationNights>
-	<locationNights>
 		<location>Narrung</location>
 		<nights>1</nights>
 		<thingsToDo></thingsToDo>
 	</locationNights>
 	<locationNights>
-		<location>Meningie</location>
-		<nights>1</nights>
-		<thingsToDo>Coorong</thingsToDo>
+		<location>Langhorne Creek</location>
+		<nights>3</nights>
+		<thingsToDo>Frank Potts Reserve</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Victor Harbor</location>
+		<nights>3</nights>
+		<thingsToDo>Granite Island, Cookle train</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mount Compass</location>
+		<nights>2</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>McClaren Vale Housesit (One day beforehand)</location>
+		<nights>11</nights>
+		<thingsToDo>Sellicks Beach, Wine Tasting</thingsToDo>
 	</locationNights>
 	<locationNights>
 		<location>Kingston SE</location>
@@ -87,28 +67,23 @@
 	</locationNights>
 	<locationNights>
 		<location>Robe</location>
-		<nights>3</nights>
-		<thingsToDo></thingsToDo>
-	</locationNights>
-	<locationNights>
-		<location>Millicent</location>
 		<nights>2</nights>
 		<thingsToDo></thingsToDo>
 	</locationNights>
 	<locationNights>
-		<location>Mount Gambier</location>
-		<nights>1</nights>
+		<location>Beachport</location>
+		<nights>2</nights>
 		<thingsToDo></thingsToDo>
 	</locationNights>
 	<locationNights>
-		<location>Warrnambool</location>
-		<nights>1</nights>
-		<thingsToDo></thingsToDo>
+		<location>Peterborough</location>
+		<nights>2</nights>
+		<thingsToDo>Great Ocean Road</thingsToDo>
 	</locationNights>
 	<locationNights>
-		<location>Port Campbell coastline</location>
-		<nights>4</nights>
-		<thingsToDo>Great Ocean Road, Great Otway NP</thingsToDo>
+		<location>Hordern Vale</location>
+		<nights>3</nights>
+		<thingsToDo>Great Otway NP</thingsToDo>
 	</locationNights>
 	<locationNights>
 		<location>Gherang Housesit (One day beforehand)</location>
@@ -117,12 +92,12 @@
 	</locationNights>
 	<locationNights>
 		<location>Lorne coastline</location>
-		<nights>4</nights>
+		<nights>5</nights>
 		<thingsToDo>Lorne, Apollo Bay, Kennett River</thingsToDo>
 	</locationNights>
 	<locationNights>
 		<location>Geelong</location>
-		<nights>4</nights>
+		<nights>10</nights>
 		<thingsToDo></thingsToDo>
 	</locationNights>
 	<!--
