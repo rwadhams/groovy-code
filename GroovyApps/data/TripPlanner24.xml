@@ -1,0 +1,150 @@
+<tripPlanner>
+	<startDate>20230222</startDate>
+	<locationNights>
+		<location>Geelong</location>
+		<nights>2</nights>
+		<thingsToDo>Shopping day</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mornington peninsula</location>
+		<nights>7</nights>
+		<thingsToDo>RoseBud, Rye, Sorrento, Phillip Island???</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Warragul</location>
+		<nights>1</nights>
+		<thingsToDo>Visit Robert Brentnall</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Wilsons Promontary</location>
+		<nights>5</nights>
+		<thingsToDo>Tidal River</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Port Welshpool</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Port Albert</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Sale</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Lakes Entrance</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Omeo</location>
+		<nights>5</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Bright</location>
+		<nights>5</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Albury/Wodonga</location>
+		<nights>2</nights>
+		<thingsToDo>Lake Hume</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Echuca</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Swan Hill</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mildura</location>
+		<nights>3</nights>
+		<thingsToDo>Wentworth</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Renmark, SA</location>
+		<nights>3</nights>
+		<thingsToDo>Woolshed Brewery</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Burra</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Flinders Ranges</location>
+		<nights>7</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Gammon Ranges</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Marree</location>
+		<nights>3</nights>
+		<thingsToDo>Farina township</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Coward Springs / William Creek</location>
+		<nights>3</nights>
+		<thingsToDo>Lake Eyre South</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Coober Pedy</location>
+		<nights>5</nights>
+		<thingsToDo>Molly's huge list</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Cadney Homestead Roadhouse</location>
+		<nights>2</nights>
+		<thingsToDo>The Painted Desert</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Marla</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Alice Springs</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>East MacDonnel Range</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Threeways Roadhouse</location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mataranka</location>
+		<nights>3</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<!--
+	<locationNights>
+		<location>John Crawford Marine</location>
+		<nights>7</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location></location>
+		<nights>1</nights>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	-->
+</tripPlanner>

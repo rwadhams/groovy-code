@@ -37,7 +37,7 @@ class TripPlannerApp {
 	def execute(String filename) {
 		def tripPlanner = new XmlSlurper().parse(new File(filename))
 		
-		DateTimeFormatter dtf = DateTimeFormatter.ofPattern('yyyyMMdd')
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern('dd/MM/yyyy')
 		LocalDate startDate = LocalDate.parse(tripPlanner.startDate.text(), dtf)
 		//println startDate
 		
@@ -52,10 +52,11 @@ class TripPlannerApp {
 		LocalDate reportDate = startingDate
 		ldlist.each {ld ->
 			//println ld
-			boolean firstNight = true
+			boolean firstLine = true
 			ld.nights.times {
-				println "${dtf.format(reportDate)}\t${ld.location}${(firstNight) ? "...: ${ld.nights}: ${ld.thingsToDo}" : ''}"
-				firstNight = false
+				String firstText = "...: ${ld.nights} nights${(ld.campsite) ? ', Staying at: ' + ld.campsite : ''}${(ld.thingsToDo) ? ', ThingsToDo: ' + ld.thingsToDo : ''}"
+				println "${dtf.format(reportDate)}\t${ld.location}${(firstLine) ? firstText : ''}"
+				firstLine = false
 				reportDate = reportDate.next()
 			}
 			println ''
@@ -68,8 +69,9 @@ class TripPlannerApp {
 		locationNights.each {ln ->
 			String location = ln.location
 			String nights = ln.nights
+			String campsite = ln.campsite
 			String thingsToDo = ln.thingsToDo
-			ldlist << new LocationNights(location : "$location", nights : Integer.parseInt(nights), thingsToDo : "$thingsToDo")
+			ldlist << new LocationNights(location : "$location", nights : Integer.parseInt(nights), campsite : "$campsite", thingsToDo : "$thingsToDo")
 		}
 		
 		return ldlist
@@ -81,5 +83,6 @@ class TripPlannerApp {
 class LocationNights {
 	String location
 	int nights
+	String campsite
 	String thingsToDo
 }

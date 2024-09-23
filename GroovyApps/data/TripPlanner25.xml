@@ -1,0 +1,113 @@
+<tripPlanner>
+	<startDate>26/03/2024</startDate>
+	<locationNights>
+		<location>Yarroweyah</location>
+		<nights>19</nights>
+		<campsite>Housesit</campsite>
+		<thingsToDo>Cobram, Yarrawonga/Mulwala, Shepparton</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Moama/Echuca</location>
+		<nights>2</nights>
+		<campsite>Rotary Park or Rich River Golf club</campsite>
+		<thingsToDo>Bandicoot Brewery (Th, Fr, Sa ??)</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Swan Hill</location>
+		<nights>3</nights>
+		<campsite>Lake Boga</campsite>
+		<thingsToDo>Pioneer Settlement, Miloo Street Wetlands, Pental Island drive</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Mildura/Wentworth</location>
+		<nights>3</nights>
+		<campsite>???</campsite>
+		<thingsToDo>Largest Windmill (Robinvale), Paddle Steamer, Murray/Darling, Wetlands/Boardwalks, Gem Shop, Winery, Inland Botanic Gardens, Mildura Homestead</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Renmark</location>
+		<nights>5</nights>
+		<campsite>???</campsite>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Burra</location>
+		<nights>1</nights>
+		<campsite>???</campsite>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Peterborough</location>
+		<nights>2</nights>
+		<campsite>???</campsite>
+		<thingsToDo>Steamtown Heritage Rail Centre</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Flinders Ranges</location>
+		<nights>10</nights>
+		<campsite>???</campsite>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Copley</location>
+		<nights>1</nights>
+		<campsite>???</campsite>
+		<thingsToDo>Best bakery in SA</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Farina</location>
+		<nights>1</nights>
+		<campsite>???</campsite>
+		<thingsToDo>Abandoned township</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Marree</location>
+		<nights>1</nights>
+		<campsite>???</campsite>
+		<thingsToDo>Marree station???</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>William Creek</location>
+		<nights>2</nights>
+		<campsite>???</campsite>
+		<thingsToDo>Lake Eyre South, Coward Springs???</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Coober Pedy</location>
+		<nights>3</nights>
+		<campsite>???</campsite>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Cadney Homestead Roadhouse</location>
+		<nights>2</nights>
+		<campsite>???</campsite>
+		<thingsToDo>The Painted Desert</thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Ghan</location>
+		<nights>1</nights>
+		<campsite>???</campsite>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location>Alice Springs</location>
+		<nights>3</nights>
+		<campsite>???</campsite>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<!--
+	<locationNights>
+		<location>John Crawford Marine</location>
+		<nights>7</nights>
+		<campsite>???</campsite>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	<locationNights>
+		<location></location>
+		<nights>1</nights>
+		<campsite>???</campsite>
+		<thingsToDo></thingsToDo>
+	</locationNights>
+	-->
+</tripPlanner>

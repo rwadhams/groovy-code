@@ -1,8 +1,8 @@
 README
 ======
 
-Groovy Stuff
-------------
+Groovy Apps
+-----------
 
 
 Gradle

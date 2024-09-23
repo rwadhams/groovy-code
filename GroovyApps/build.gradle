@@ -6,14 +6,15 @@ plugins {
 }
 
 repositories {
+	mavenLocal()
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
 }
 
 dependencies {
-	compile 'org.apache.commons:commons-imaging:1.0-alpha1'
-	compile 'com.drewnoakes:metadata-extractor:2.14.0'
+	implementation 'org.apache.commons:commons-imaging:1.0-alpha1'
+	implementation 'com.drewnoakes:metadata-extractor:2.14.0'
 	
 	// Use the latest Groovy version for building this library
 	implementation 'org.codehaus.groovy:groovy-all:3.0.9'
@@ -22,3 +23,5 @@ dependencies {
 	testImplementation 'org.spockframework:spock-core:2.0-groovy-3.0'
 }
 
+sourceCompatibility=18
+targetCompatibility=18
